@@ -9,6 +9,11 @@ function getComputerChoise(){
     }else if(bot == 1){
         return 'rock';
     }else{
-        return 'scisor';
+        return 'scissor';
     }
+}
+
+function getHumanChoice(){
+    let choice = prompt('Choose your move (rock/paper/scissor)');
+    return choice;
 }
